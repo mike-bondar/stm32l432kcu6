@@ -1,8 +1,7 @@
-void SystemClock_Config(void);
+#include "drivers/stm32l432xx.h"
 
 int main(void)
 {
-
   while (1)
   {
     // Infinite loop; Do nothing

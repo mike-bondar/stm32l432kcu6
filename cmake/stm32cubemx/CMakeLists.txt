@@ -12,14 +12,13 @@ target_compile_definitions(stm32cubemx INTERFACE
 )
 
 target_include_directories(stm32cubemx INTERFACE
-    ../../Drivers/CMSIS/Device/ST/STM32L4xx/Include
-    ../../Drivers/CMSIS/Include
+    ../../src/drivers/include
 )
 
 target_sources(stm32cubemx INTERFACE
-    ../../src/app/main.c
-    ../../src/app/sysmem.c
-    ../../src/app/syscalls.c
+    ../../src/app/src/main.c
+    ../../src/app/src/sysmem.c
+    ../../src/app/src/syscalls.c
     ../../startup_stm32l432xx.s
 )
 
