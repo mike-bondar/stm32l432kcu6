@@ -1,0 +1,1 @@
+This is a scaffoliding project for my Nucleo-32 with STM32L432KCU6 based on CMake, OpenOCD, arm-none-eabi-gcc with CMSIS and a custom directory structure.
